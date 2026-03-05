@@ -1,0 +1,25 @@
+/* WET */
+/* h1{
+    color: red;
+    border: 5px solid yellow;
+}
+
+p{
+    color: red;
+    border: 5px solid yellow;
+}
+
+div{
+    color: red;
+    border: 5px solid yellow;
+} */
+
+/* DRY */
+/* ----------- Grouping -------------- */
+/* h1, p ,div{
+    color: red;
+    border: 5px solid yellow;
+} */
+
+/* ---------------------------------------------------------- */
+

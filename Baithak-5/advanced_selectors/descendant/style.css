@@ -1,0 +1,26 @@
+/* child => only 1 jump */
+/* #sam > article > div > h1{
+    color: red;
+    font-size: 70px;
+} */
+
+/* #sam div > h1{
+    color: red;
+    font-size: 70px;
+} */
+
+
+/* #sam > div > h1{
+    color: green;
+    border: 1px solid red;
+} */
+
+/* adjas (+) */
+#sam + p{
+    color: red;
+}
+
+/* general (~) */
+#sam ~ p{
+    font-size: 50px;
+}

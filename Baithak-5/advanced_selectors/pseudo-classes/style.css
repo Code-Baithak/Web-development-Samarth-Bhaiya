@@ -1,0 +1,44 @@
+/* div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+
+/* div:hover{
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+input:focus{
+    font-size: 50px;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: orange;
+} */
+
+
+/* ul>li:nth-of-type(4),
+ul>li:nth-of-type(5){
+    color: red;
+} */
+
+
+ul>li:nth-of-type(even){
+    color: red;
+}
+ul>li:nth-of-type(odd){
+    color: green;
+}
+
+ul>li:first-child,
+ul>li:last-child
+{
+    font-size: 50px;
+}
