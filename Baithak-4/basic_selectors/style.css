@@ -1,0 +1,63 @@
+/* element selector */
+/* h1{
+    color: red;
+    border: 3px solid blue;
+    font-size: 30px;
+    background-color: cadetblue;
+} */
+
+/* ------------------------------------ */
+/* id selector */
+
+/* h1{
+    color: aqua;
+    font-size: 20px;
+} */
+/* #sam{
+    color: orange;
+    font-size: 50px;
+}
+
+#lol{
+    color: chartreuse;
+    font-size: 120px;
+} */
+/* .mav{
+    color: chartreuse;
+    font-size: 120px;
+    border: 5px solid brown;
+} */
+
+/* ------------------------------------ */
+/* class selector */
+/* .vohra{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* ------------------------------------ */
+/* #sam{
+    color: red;
+}
+#code{
+    color: blue;
+    font-size: 100px;
+} */
+
+
+/* .vohra{
+    font-size: 30px;
+    color: blue;
+    border: 5px solid brown;
+}
+
+.mav{
+    color: chartreuse;
+    font-size: 120px;
+} */
+
+/* ------------------------------------ */
+/* universal selector */
+*{
+    border: 1px solid black;
+}
