@@ -1,0 +1,48 @@
+
+/* absolute unit */
+/* h1{
+    font-size: 14px;
+    font-size: 54px;
+} */
+
+/* relative units */
+
+/* % => parent */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color: purple;
+    width: 100px;
+}
+article{
+    background-color: orange;
+    width: 50%;
+} */
+
+/* em => snowball effect */
+/* #sam{
+    font-size: 10px;
+}
+ul>li{
+    font-size: 2em;
+} */
+
+/* rem = root = html*/
+/* 
+ul>li{
+    font-size: 2rem;
+} */
+
+/* ---------- */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+} */
