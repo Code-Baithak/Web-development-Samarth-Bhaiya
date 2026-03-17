@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+}
+/* max = 4/5 media query */
+
+
+/* 1280  */
+/* @media screen and (max-width: 1280px){
+    h1{
+        color: green
+    }
+    p{
+        color: pink;
+    }
+} */
+
+
+/* 1024 */
+/* @media screen and (max-width: 1024px){
+    h1{
+        font-size: 100px;
+        color: red;
+    }
+    p{
+        font-size: 50px;
+        color: orange;
+    }
+} */
+
+/* --------------------------------------------------- */
+
+/* 576px */
+/* @media screen and (min-width: 576px) {
+    h1{
+        font-size: 100px;
+        color: blue;
+    }
+} */
+
+/* 768px */
+/* @media screen and (min-width: 768px) {
+    h1{
+        font-size: 30px;
+        color: palegreen;
+    }
+} */
+
+
+/* --------------------------------------------------- */
+
+/* landscape , portrait */
+/* land = w>h */
+/* port = w<h */
+
+/* @media screen  and (orientation:portrait){
+    h1{
+        border: 1px solid black;
+    }
+    p{
+        color: green;
+    }
+}
+
+@media screen and (orientation:landscape){
+    h1{
+        border: 1px dotted orange;
+    }
+    p{
+        color: red;
+    }
+} */
+
+/* --------------------------------------------------- */
+
+
+@media screen and (max-width: 800px) , (orientation:portrait) {
+    h1{
+        color: red;
+        font-size: 90px;
+    }
+}   
+
